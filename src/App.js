@@ -4,7 +4,7 @@ import TaskForm from "./components/TaskForm";
 
 function App() {
   const [tasks, setTasks] = useState([]);
-  const [showUncompleted, setShowUncompleted] = useState(false); // Changed the state name
+  const [showUncompleted, setShowUncompleted] = useState(false);
 
   useEffect(() => {
     const storedTasks = localStorage.getItem("tasks");

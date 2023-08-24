@@ -15,7 +15,6 @@ li {
   padding: 0;
 }
 
-/* Set a background color and center content */
 body {
   font-family: sans-serif;
   display: flex;
@@ -59,7 +58,7 @@ h1:after {
 button {
   cursor: pointer;
 }
-/* Style form inputs and buttons */
+
 form {
   display: flex;
   flex-direction: column;
@@ -100,7 +99,6 @@ input[type="text"] {
   background-color: rgb(203, 91, 76);
 }
 
-/* Style the task list */
 .task-container {
   width: 100%;
 }
@@ -156,9 +154,8 @@ li {
 .edit-button {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
-
-/* Centered text */
 
 .completed-tasks label {
   display: flex;
